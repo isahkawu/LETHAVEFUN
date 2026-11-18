@@ -1,21 +1,23 @@
 # C = (F - 32 ) * 5/9
 # F = (C * 9/5) + 32
 
-Celsius = input("Enter the value in Celsius: ")
+def Tempereture (Celsius, unit)
 
-def Fahrenheit = (Celsius * 1.8) + 32
+ Fahrenheit = (Celsius * 1.8) + 32
 
-if Fahrenheit >= 25:
+if Fahrenheit > 25:
     print("Heat Alert")
 
-if Celsius < 0:
+elif:
+    Fahrenheit < 25
     print("Cold Advisory")
 
+    return Fahrenheit
+print(Temperature(30, "C")    
 
 
 
-
-Fahrenheit = input("Enter the value of Fahrenheit: ")
+def Convert (Fahrenheit, unit)
 
 Celsius = (Fahrenheit - 32) * 0.56
 
@@ -25,5 +27,6 @@ if Celsius < 0:
 elif Celsius >= 25:
     print("Heat Alert")
 
-
+    return Celsius
+print(Convert(-8, "F"))
 
