@@ -17,7 +17,7 @@ average = sum / count;
 
 }
 
-System.out.println("the Score and Average of the Even Numbers collected is:  " + average);
+System.out.println("the Average score of the Even Numbers collected is:  " + average);
 }
 
 
